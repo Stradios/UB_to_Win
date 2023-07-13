@@ -229,7 +229,6 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 clear
 # Insttaling GDM Login Wallpaper
 print_large_text "${GREEN}Insttaling GDM Login Wallpaper...${NC}"
-print_large_text "${GREEN}Do Not accept y/yes!!!${NC}"
 print_large_text "${GREEN}You will be prompted to reboot after!!!${NC}"
 countdown
 
@@ -237,6 +236,7 @@ cd ~/Downloads/UB_to_Win/login
 sudo ./login_wallpapaer.sh
 cd $HOME/.login
 chmod +x jammy-change-gdm-background
+print_large_text "${GREEN}Do Not accept y/yes!!!${NC}"
 sudo ./jammy-change-gdm-background login-wallpaper.jpg
 
 clear
@@ -249,7 +249,7 @@ dconf load -f / < saved_settings.dconf
 clear
 # Display initial message
 print_large_text "${RED}Installation was Successful! ${NC}"
-
+print_large_text "${RED}Reboot for all to work ${NC}"
 # Prompt the user
 read -p "Would you like to Reboot the system? (yes/y or no/n): " answer
 
