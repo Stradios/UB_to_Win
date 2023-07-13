@@ -197,6 +197,7 @@ print_large_text "${GREEN}Installing gnome-shell-Extension...${NC}"
 print_large_text "${RED}You need to reboot for this to apply!..${NC}"
 countdown
 cd ~/Downloads/UB_to_Win
+chmod +x gnome-shell-copy.sh
 sudo ./gnome-shell-copy.sh
 
 clear
