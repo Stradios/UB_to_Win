@@ -223,6 +223,13 @@ chmod +x jammy-change-gdm-background
 sudo ./jammy-change-gdm-background login-wallpaper.jpg
 
 clear
+# Insttaling GDM Login Wallpaper
+print_large_text "${GREEN}Setting upp dconf...${NC}"
+
+cd ~/Downloads/UB_to_Win/Extentins-config
+dconf load -f / < saved_settings.dconf
+
+clear
 # Display initial message
 print_large_text "${RED}Installation was Successful! ${NC}"
 
