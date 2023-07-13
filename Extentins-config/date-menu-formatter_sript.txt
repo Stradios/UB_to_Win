@@ -1,0 +1,2 @@
+copy the text under in to Date Menu Formater comfig in the Extention 
+'     'kk:mm\ndd-MM-yy

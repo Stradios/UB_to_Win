@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Shell.Extensions.GSConnect.desktop" score="2" last-seen="1688720532"/>
+    <application id="org.gnome.tweaks.desktop" score="34" last-seen="1688719589"/>
+    <application id="brave-browser.desktop" score="4270" last-seen="1688727965"/>
+    <application id="telegramdesktop.desktop" score="152" last-seen="1688723974"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="388" last-seen="1688723249"/>
+    <application id="AndroidMessages.desktop" score="14" last-seen="1688727764"/>
+    <application id="org.gnome.FileRoller.desktop" score="3" last-seen="1688720025"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" score="47" last-seen="1688723741"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="28" last-seen="1688194302"/>
+    <application id="org.gnome.Calendar.desktop" score="0" last-seen="1688336406"/>
+    <application id="org.gnome.eog.desktop" score="12" last-seen="1688320509"/>
+    <application id="org.gnome.Totem.desktop" score="1" last-seen="1688203559"/>
+    <application id="org.gnome.Nautilus.desktop" score="883" last-seen="1688728335"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="6" last-seen="1688319832"/>
+    <application id="org.gnome.Weather.desktop" score="1" last-seen="1688336399"/>
+    <application id="org.gnome.seahorse.Application.desktop" score="1" last-seen="1688205374"/>
+    <application id="com.github.donadigo.eddy.desktop" score="40" last-seen="1688724880"/>
+    <application id="org.gnome.Terminal.desktop" score="5871" last-seen="1688728334"/>
+    <application id="gnome-control-center.desktop" score="279" last-seen="1688723971"/>
+    <application id="org.gnome.gedit.desktop" score="192" last-seen="1688728318"/>
+    <application id="io.elementary.appcenter.desktop" score="165" last-seen="1688723881"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="10" last-seen="1688333825"/>
+    <application id="code.desktop" score="93" last-seen="1688728343"/>
+    <application id="flatpak-installer.desktop" score="0" last-seen="1688336380"/>
+    <application id="gnome-system-monitor.desktop" score="4" last-seen="1688319979"/>
+    <application id="org.gnome.Extensions.desktop" score="113" last-seen="1688720118"/>
+  </context>
+</application-state>
