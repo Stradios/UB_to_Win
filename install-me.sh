@@ -126,22 +126,11 @@ clear
 # Run Instaling arcMenu icon
 print_large_text "${GREEN}Instaling arcMenu icon...${NC}"
 countdown
-# Check if the file exists
-if [ ! -f "arcMenu.png" ]; then
-    echo "Error: arcMenu.png does not exist in the current directory."
-    exit 1
-fi
 
+cd ~/Downloads/UB_to_Win
 # Copy the file using sudo
-sudo cp "arcMenu.png" /usr/share/icons
+sudo cp arcMenu.png /usr/share/icons
 
-# Verify the copy operation
-if [ $? -eq 0 ]; then
-    echo "arcMenu.png copied successfully to /usr/share/icons."
-else
-    echo "Error: Failed to copy arcMenu.png."
-    exit 1
-fi
 
 # Optional: Print a success message
 echo "Installation completed successfully!"
