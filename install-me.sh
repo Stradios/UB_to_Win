@@ -76,7 +76,7 @@ git clone https://github.com/vinceliuice/Fluent-gtk-theme.git
 cd Fluent-gtk-theme
 
 # Run the install.sh script
-./install.sh -a
+./install.sh 
 
 # Optional: Ask user if they want to remove the folder
 read -p "Do you want to remove the 'Fluent-gtk-theme' folder from Downloads? (yes/no): " remove_folder
@@ -105,7 +105,7 @@ git clone https://github.com/yeyushengfan258/Win11-icon-theme.git
 cd Win11-icon-theme
 
 # Run the install.sh script
-./install.sh -a
+./install.sh 
 
 # Optional: Ask user if they want to remove the folder
 read -p "Do you want to remove the 'Win11-icon-theme' folder from Downloads? (yes/no): " remove_folder
