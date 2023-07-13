@@ -202,12 +202,6 @@ countdown
 sudo apt install gir1.2-gmenu-3.0 gnome-menus
 
 clear
-# Install Extension Manager via Flatpak
-print_large_text "${GREEN}Installing Extension Manager via Flatpak...${NC}"
-countdown
-flatpak install flathub com.mattjakeman.ExtensionManager
-
-clear
 # Edit GDM custom configuration
 print_large_text "${GREEN}Installing gnome-shell-Extension...${NC}"
 # Display initial message
@@ -215,6 +209,15 @@ print_large_text "${RED}You need to reboot for this to apply!..${NC}"
 countdown
 cd ~/Downloads/UB_to_Win
 sudo ./gnome-shell-copy.sh
+
+clear
+# Install Extension Manager via Flatpak
+print_large_text "${GREEN}Installing Extension Manager via Flatpak...${NC}"
+countdown
+sudo apt install flatpak -y
+sudo apt install gnome-software-plugin-flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.mattjakeman.ExtensionManager
 
 clear
 # Insttaling GDM Login Wallpaper
