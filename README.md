@@ -7,3 +7,7 @@
     cd UB_to_Win/
     chmod +x install-me.sh
     ./install-me.sh
+
+![](Desktop.jpg)
+![](login.png)
+![](Desktop-full.jpg)
