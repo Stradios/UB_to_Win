@@ -1,6 +1,6 @@
 # UB_to_Win
 
-    ![](termimal.png)
+![](termimal.png)
 
     sudo apt install git
     cd Downloads/
