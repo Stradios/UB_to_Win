@@ -1,6 +1,7 @@
 # UB_to_Win
 
-    
+    ![](termimal.png)
+
     sudo apt install git
     cd Downloads/
     git clone https://github.com/Stradios/UB_to_Win.git
