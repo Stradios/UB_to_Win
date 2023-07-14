@@ -171,7 +171,6 @@ clear
 print_large_text "${GREEN}Installing GNOME Tweaks...${NC}"
 countdown
 sudo apt install gnome-tweaks -y
-gnome-tweaks
 
 clear
 # Insttaling GDM Login Wallpaper
